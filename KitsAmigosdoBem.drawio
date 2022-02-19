@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-19T15:27:53.014Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="gdxPaZgGR5dLaNiXUf5N" version="16.6.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-02-19T15:29:41.662Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="PtvOGBLUeD1pC_hBR8d4" version="16.6.1" type="github" pages="3">
   <diagram id="M9Ww6vhnyg7ROGRHbJnc" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -92,8 +92,8 @@
             <mxPoint x="480" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CG1ny2RB6H38qIIXMP69-3" value="&lt;font color=&quot;#000000&quot;&gt;* Gravar o orçamento na base de dados com os dados:&amp;nbsp;&lt;br&gt;Informações do Cliente&lt;br&gt;Produtos&lt;br&gt;Qtde&lt;br&gt;Status do Envio&lt;br&gt;Aprovado Sim ou não&lt;br&gt;Data da Emissão data do envio&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="d9bEw3XCSWuHJ0LrNNUA-1">
-          <mxGeometry x="250" y="370" width="220" height="130" as="geometry" />
+        <mxCell id="CG1ny2RB6H38qIIXMP69-3" value="&lt;font color=&quot;#000000&quot;&gt;* Gravar o orçamento na base de dados com os dados:&amp;nbsp;&lt;br&gt;Informações do Cliente&lt;br&gt;Produtos&lt;br&gt;Qtde&lt;br&gt;Status do Envio&lt;br&gt;Aprovado Sim ou não&lt;br&gt;Data da Emissão data do envio&lt;br&gt;Usuário que fez atendimento&lt;br&gt;tipo de contato&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="d9bEw3XCSWuHJ0LrNNUA-1">
+          <mxGeometry x="250" y="390" width="220" height="130" as="geometry" />
         </mxCell>
         <mxCell id="CG1ny2RB6H38qIIXMP69-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="d9bEw3XCSWuHJ0LrNNUA-1" source="CG1ny2RB6H38qIIXMP69-4" target="CG1ny2RB6H38qIIXMP69-11">
           <mxGeometry relative="1" as="geometry" />
@@ -290,7 +290,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="910" y="810" />
-              <mxPoint x="750" y="810" />
+              <mxPoint x="760" y="810" />
             </Array>
           </mxGeometry>
         </mxCell>
