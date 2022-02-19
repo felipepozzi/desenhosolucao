@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-19T14:52:03.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="hn-vCoEmn9zqJrTFmB3O" version="16.6.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-02-19T15:04:58.376Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="aXKbuwy_7VdTFADHDipx" version="16.6.1" type="github" pages="3">
   <diagram id="M9Ww6vhnyg7ROGRHbJnc" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -76,6 +76,123 @@
         </mxCell>
         <mxCell id="d9bEw3XCSWuHJ0LrNNUA-19" value="&lt;font color=&quot;#000000&quot;&gt;* Alterar a consulta do frete para pegar a media do valor do frete. &lt;br&gt;&lt;br&gt;Frete Médiio + Frete Alto / 2&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="d9bEw3XCSWuHJ0LrNNUA-1">
           <mxGeometry x="60" y="370" width="220" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4dPUL6WnxUF1fTm2Ycdd" name="EnvioDoLoteKits">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="wnZzmRrVjJoLsNCJsXt6-0" />
+        <mxCell id="wnZzmRrVjJoLsNCJsXt6-1" parent="wnZzmRrVjJoLsNCJsXt6-0" />
+        <mxCell id="Aptw--RbnDyG1qRzrxfk-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="wnZzmRrVjJoLsNCJsXt6-1" source="wnZzmRrVjJoLsNCJsXt6-2" target="wnZzmRrVjJoLsNCJsXt6-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wnZzmRrVjJoLsNCJsXt6-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="wnZzmRrVjJoLsNCJsXt6-1">
+          <mxGeometry x="110" y="160" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wnZzmRrVjJoLsNCJsXt6-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="wnZzmRrVjJoLsNCJsXt6-1" source="wnZzmRrVjJoLsNCJsXt6-3" target="wnZzmRrVjJoLsNCJsXt6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wnZzmRrVjJoLsNCJsXt6-3" value="Insere Arquivo" style="whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="wnZzmRrVjJoLsNCJsXt6-1">
+          <mxGeometry x="190" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wnZzmRrVjJoLsNCJsXt6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="wnZzmRrVjJoLsNCJsXt6-1" source="wnZzmRrVjJoLsNCJsXt6-4" target="wnZzmRrVjJoLsNCJsXt6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wnZzmRrVjJoLsNCJsXt6-4" value="Valida Arquivo&amp;nbsp;&lt;br&gt;Campos obrigatórios" style="whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="wnZzmRrVjJoLsNCJsXt6-1">
+          <mxGeometry x="390" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wnZzmRrVjJoLsNCJsXt6-8" value="Não" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="wnZzmRrVjJoLsNCJsXt6-1" source="wnZzmRrVjJoLsNCJsXt6-6" target="wnZzmRrVjJoLsNCJsXt6-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wnZzmRrVjJoLsNCJsXt6-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;startArrow=none;" edge="1" parent="wnZzmRrVjJoLsNCJsXt6-1" source="Aptw--RbnDyG1qRzrxfk-10" target="wnZzmRrVjJoLsNCJsXt6-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wnZzmRrVjJoLsNCJsXt6-6" value="Arquivo valido?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="wnZzmRrVjJoLsNCJsXt6-1">
+          <mxGeometry x="556" y="150" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wnZzmRrVjJoLsNCJsXt6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="wnZzmRrVjJoLsNCJsXt6-1" source="wnZzmRrVjJoLsNCJsXt6-7" target="wnZzmRrVjJoLsNCJsXt6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wnZzmRrVjJoLsNCJsXt6-7" value="Devolve as linhas que tem erro e qual coluna.&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="wnZzmRrVjJoLsNCJsXt6-1">
+          <mxGeometry x="550" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wnZzmRrVjJoLsNCJsXt6-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="wnZzmRrVjJoLsNCJsXt6-1" source="wnZzmRrVjJoLsNCJsXt6-11" target="wnZzmRrVjJoLsNCJsXt6-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wnZzmRrVjJoLsNCJsXt6-11" value="Gera aprovação do arquivo" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="wnZzmRrVjJoLsNCJsXt6-1">
+          <mxGeometry x="930" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wnZzmRrVjJoLsNCJsXt6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="wnZzmRrVjJoLsNCJsXt6-1" source="wnZzmRrVjJoLsNCJsXt6-13" target="wnZzmRrVjJoLsNCJsXt6-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1150" y="290" />
+              <mxPoint x="990" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wnZzmRrVjJoLsNCJsXt6-16" value="Não, Aguarda Aprovação" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="wnZzmRrVjJoLsNCJsXt6-15">
+          <mxGeometry x="0.0744" y="4" relative="1" as="geometry">
+            <mxPoint x="16" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aptw--RbnDyG1qRzrxfk-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="wnZzmRrVjJoLsNCJsXt6-1" source="wnZzmRrVjJoLsNCJsXt6-13" target="Aptw--RbnDyG1qRzrxfk-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wnZzmRrVjJoLsNCJsXt6-13" value="Arquivo Aprovado?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="wnZzmRrVjJoLsNCJsXt6-1">
+          <mxGeometry x="1110" y="150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Aptw--RbnDyG1qRzrxfk-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="wnZzmRrVjJoLsNCJsXt6-1" source="Aptw--RbnDyG1qRzrxfk-2" target="Aptw--RbnDyG1qRzrxfk-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1880" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aptw--RbnDyG1qRzrxfk-2" value="Processa LInha do arquivo" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="wnZzmRrVjJoLsNCJsXt6-1">
+          <mxGeometry x="1620" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aptw--RbnDyG1qRzrxfk-6" value="Fim" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="wnZzmRrVjJoLsNCJsXt6-1">
+          <mxGeometry x="1790" y="165" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Aptw--RbnDyG1qRzrxfk-8" value="Processa Arquivo Vtex&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;dashed=1;" vertex="1" parent="wnZzmRrVjJoLsNCJsXt6-1">
+          <mxGeometry x="160" y="480" width="670" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Aptw--RbnDyG1qRzrxfk-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=#000000;fillColor=none;" vertex="1" parent="wnZzmRrVjJoLsNCJsXt6-1">
+          <mxGeometry x="180" y="550" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aptw--RbnDyG1qRzrxfk-10" value="Grava dados do arquivo na base de Dados" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="wnZzmRrVjJoLsNCJsXt6-1">
+          <mxGeometry x="740" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aptw--RbnDyG1qRzrxfk-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;endArrow=none;" edge="1" parent="wnZzmRrVjJoLsNCJsXt6-1" source="wnZzmRrVjJoLsNCJsXt6-6" target="Aptw--RbnDyG1qRzrxfk-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="666" y="190" as="sourcePoint" />
+            <mxPoint x="960" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aptw--RbnDyG1qRzrxfk-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="wnZzmRrVjJoLsNCJsXt6-1" source="Aptw--RbnDyG1qRzrxfk-13" target="Aptw--RbnDyG1qRzrxfk-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aptw--RbnDyG1qRzrxfk-13" value="Gera Email/SMS para ChatBoot" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="wnZzmRrVjJoLsNCJsXt6-1">
+          <mxGeometry x="1250" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aptw--RbnDyG1qRzrxfk-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="wnZzmRrVjJoLsNCJsXt6-1" source="Aptw--RbnDyG1qRzrxfk-17" target="Aptw--RbnDyG1qRzrxfk-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1500" y="270" />
+              <mxPoint x="1310" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aptw--RbnDyG1qRzrxfk-20" value="Aguarda Validação" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="Aptw--RbnDyG1qRzrxfk-19">
+          <mxGeometry x="-0.008" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aptw--RbnDyG1qRzrxfk-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="wnZzmRrVjJoLsNCJsXt6-1" source="Aptw--RbnDyG1qRzrxfk-17" target="Aptw--RbnDyG1qRzrxfk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aptw--RbnDyG1qRzrxfk-17" value="Dados Validados Pelo Recebedor do Kit?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="wnZzmRrVjJoLsNCJsXt6-1">
+          <mxGeometry x="1420" y="130" width="160" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
