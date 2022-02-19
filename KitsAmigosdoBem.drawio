@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-19T15:25:42.442Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="1SqCXn5pmjh_a9RKYL6d" version="16.6.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-02-19T15:27:53.014Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="gdxPaZgGR5dLaNiXUf5N" version="16.6.1" type="github" pages="3">
   <diagram id="M9Ww6vhnyg7ROGRHbJnc" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -101,6 +101,14 @@
         <mxCell id="CG1ny2RB6H38qIIXMP69-4" value="Seleciona Cliente" style="whiteSpace=wrap;html=1;" vertex="1" parent="d9bEw3XCSWuHJ0LrNNUA-1">
           <mxGeometry x="380" y="130" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="CG1ny2RB6H38qIIXMP69-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="d9bEw3XCSWuHJ0LrNNUA-1" source="CG1ny2RB6H38qIIXMP69-11" target="CG1ny2RB6H38qIIXMP69-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="110" />
+              <mxPoint x="410" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="CG1ny2RB6H38qIIXMP69-11" value="Orçamento ja Existe?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="d9bEw3XCSWuHJ0LrNNUA-1">
           <mxGeometry x="540" y="120" width="80" height="80" as="geometry" />
         </mxCell>
@@ -114,10 +122,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4dPUL6WnxUF1fTm2Ycdd" name="EnvioDoLoteKits">
-    <mxGraphModel dx="1497" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1497" dy="1971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="wnZzmRrVjJoLsNCJsXt6-0" />
         <mxCell id="wnZzmRrVjJoLsNCJsXt6-1" parent="wnZzmRrVjJoLsNCJsXt6-0" />
+        <mxCell id="Aptw--RbnDyG1qRzrxfk-57" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;dashed=1;dashPattern=1 4;" vertex="1" parent="wnZzmRrVjJoLsNCJsXt6-1">
+          <mxGeometry x="50" y="50" width="1990" height="540" as="geometry" />
+        </mxCell>
         <mxCell id="Aptw--RbnDyG1qRzrxfk-60" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;dashed=1;dashPattern=1 4;" vertex="1" parent="wnZzmRrVjJoLsNCJsXt6-1">
           <mxGeometry x="50" y="600" width="1990" height="540" as="geometry" />
         </mxCell>
@@ -134,6 +145,9 @@
           <mxGeometry x="190" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wnZzmRrVjJoLsNCJsXt6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="wnZzmRrVjJoLsNCJsXt6-1" source="wnZzmRrVjJoLsNCJsXt6-4" target="wnZzmRrVjJoLsNCJsXt6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ysNWAXs2dfbFNSEu3kaF-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="wnZzmRrVjJoLsNCJsXt6-1" source="wnZzmRrVjJoLsNCJsXt6-4" target="ysNWAXs2dfbFNSEu3kaF-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wnZzmRrVjJoLsNCJsXt6-4" value="Valida Arquivo&amp;nbsp;&lt;br&gt;Campos obrigatórios" style="whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="wnZzmRrVjJoLsNCJsXt6-1">
@@ -188,14 +202,10 @@
           <mxGeometry x="1790" y="165" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Aptw--RbnDyG1qRzrxfk-8" value="Grava Dados da Planilha na base de dados" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;dashed=1;" vertex="1" parent="wnZzmRrVjJoLsNCJsXt6-1">
-          <mxGeometry x="960" y="340" width="220" height="220" as="geometry" />
+          <mxGeometry x="970" y="340" width="220" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Aptw--RbnDyG1qRzrxfk-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="wnZzmRrVjJoLsNCJsXt6-1" source="Aptw--RbnDyG1qRzrxfk-10" target="Aptw--RbnDyG1qRzrxfk-8">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1080" y="500" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="Aptw--RbnDyG1qRzrxfk-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="wnZzmRrVjJoLsNCJsXt6-1" source="Aptw--RbnDyG1qRzrxfk-10" target="Aptw--RbnDyG1qRzrxfk-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Aptw--RbnDyG1qRzrxfk-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;endArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wnZzmRrVjJoLsNCJsXt6-1" source="wnZzmRrVjJoLsNCJsXt6-6" target="wnZzmRrVjJoLsNCJsXt6-11">
           <mxGeometry relative="1" as="geometry">
@@ -339,9 +349,6 @@
         <mxCell id="Aptw--RbnDyG1qRzrxfk-56" value="Precisa ter o passo de aprovação?" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontColor=#000000;fillColor=none;" vertex="1" parent="wnZzmRrVjJoLsNCJsXt6-1">
           <mxGeometry x="720" y="620" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Aptw--RbnDyG1qRzrxfk-57" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;dashed=1;dashPattern=1 4;" vertex="1" parent="wnZzmRrVjJoLsNCJsXt6-1">
-          <mxGeometry x="50" y="50" width="1990" height="540" as="geometry" />
-        </mxCell>
         <mxCell id="Aptw--RbnDyG1qRzrxfk-59" value="Fluxo com ChatBoot Validando os dados" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 4;fontColor=#000000;" vertex="1" parent="wnZzmRrVjJoLsNCJsXt6-1">
           <mxGeometry x="110" y="60" width="270" height="30" as="geometry" />
         </mxCell>
@@ -350,6 +357,9 @@
         </mxCell>
         <mxCell id="Aptw--RbnDyG1qRzrxfk-62" value="Consulta ID do arquivo na base&lt;br&gt;Valida status da linha&lt;br&gt;Processa a solicitação&lt;br&gt;atualiza status da linha&amp;nbsp;&lt;br&gt;atualiza status do arquivo final&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;dashed=1;" vertex="1" parent="wnZzmRrVjJoLsNCJsXt6-1">
           <mxGeometry x="1185" y="890" width="190" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="ysNWAXs2dfbFNSEu3kaF-0" value="Valida se o item do arquivo ja foi processado ou existe na base.&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;dashed=1;" vertex="1" parent="wnZzmRrVjJoLsNCJsXt6-1">
+          <mxGeometry x="390" y="-180" width="220" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
