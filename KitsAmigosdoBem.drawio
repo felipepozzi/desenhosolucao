@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-19T15:31:53.016Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="bUbFOMjBusXkpS6q-v9r" version="16.6.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-02-19T16:03:41.846Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="MAMY_wavmgxzE9cK6qJP" version="16.6.1" type="github" pages="3">
   <diagram id="M9Ww6vhnyg7ROGRHbJnc" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,7 +26,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TF-mjnTQwiWwW_SEFlWo" name="Orçamento">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="d9bEw3XCSWuHJ0LrNNUA-0" />
         <mxCell id="d9bEw3XCSWuHJ0LrNNUA-1" parent="d9bEw3XCSWuHJ0LrNNUA-0" />
@@ -75,7 +75,7 @@
         <mxCell id="d9bEw3XCSWuHJ0LrNNUA-17" value="&lt;font color=&quot;#ffffff&quot;&gt;FIM&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="d9bEw3XCSWuHJ0LrNNUA-1">
           <mxGeometry x="1614" y="140" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="d9bEw3XCSWuHJ0LrNNUA-19" value="&lt;font color=&quot;#000000&quot;&gt;* Alterar a consulta do frete para pegar a media do valor do frete. &lt;br&gt;&lt;br&gt;Frete Médiio + Frete Alto / 2&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="d9bEw3XCSWuHJ0LrNNUA-1">
+        <mxCell id="d9bEw3XCSWuHJ0LrNNUA-19" value="&lt;font color=&quot;#000000&quot;&gt;* Alterar a consulta do frete para pegar o menor valor de&amp;nbsp; frete. &lt;br&gt;&lt;br&gt;Incluir uma variável&amp;nbsp;para acrescentar&amp;nbsp;um % em cima do frete para precaver perdas no calculo do frete.&lt;br&gt;&lt;br&gt;Só&amp;nbsp;devolver um valor de frete.&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="d9bEw3XCSWuHJ0LrNNUA-1">
           <mxGeometry x="974" width="220" height="130" as="geometry" />
         </mxCell>
         <mxCell id="CG1ny2RB6H38qIIXMP69-0" value="Grava Orçamento na Base de dados" style="whiteSpace=wrap;html=1;" vertex="1" parent="d9bEw3XCSWuHJ0LrNNUA-1">
@@ -117,7 +117,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4dPUL6WnxUF1fTm2Ycdd" name="EnvioDoLoteKits">
-    <mxGraphModel dx="1497" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2370" dy="1270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="wnZzmRrVjJoLsNCJsXt6-0" />
         <mxCell id="wnZzmRrVjJoLsNCJsXt6-1" parent="wnZzmRrVjJoLsNCJsXt6-0" />
