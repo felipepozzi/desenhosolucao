@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-19T14:43:59.599Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="DBtGmXynCl3yX24ysdVX" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-19T14:52:03.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="hn-vCoEmn9zqJrTFmB3O" version="16.6.1" type="github" pages="2">
   <diagram id="M9Ww6vhnyg7ROGRHbJnc" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,6 +21,61 @@
         </mxCell>
         <mxCell id="42qMMOwrlBDT9h1mqVO3-10" value="Tabela com os orçamentos e arquivos que precisa ser processados, aprova ou não?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="256" y="650" width="196" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="TF-mjnTQwiWwW_SEFlWo" name="Orçamento">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="d9bEw3XCSWuHJ0LrNNUA-0" />
+        <mxCell id="d9bEw3XCSWuHJ0LrNNUA-1" parent="d9bEw3XCSWuHJ0LrNNUA-0" />
+        <mxCell id="d9bEw3XCSWuHJ0LrNNUA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="d9bEw3XCSWuHJ0LrNNUA-1" source="d9bEw3XCSWuHJ0LrNNUA-2" target="d9bEw3XCSWuHJ0LrNNUA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d9bEw3XCSWuHJ0LrNNUA-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="d9bEw3XCSWuHJ0LrNNUA-1">
+          <mxGeometry x="100" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d9bEw3XCSWuHJ0LrNNUA-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="d9bEw3XCSWuHJ0LrNNUA-1" source="d9bEw3XCSWuHJ0LrNNUA-4" target="d9bEw3XCSWuHJ0LrNNUA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d9bEw3XCSWuHJ0LrNNUA-4" value="Acessa portal" style="whiteSpace=wrap;html=1;" vertex="1" parent="d9bEw3XCSWuHJ0LrNNUA-1">
+          <mxGeometry x="210" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d9bEw3XCSWuHJ0LrNNUA-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="d9bEw3XCSWuHJ0LrNNUA-1" source="d9bEw3XCSWuHJ0LrNNUA-6" target="d9bEw3XCSWuHJ0LrNNUA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d9bEw3XCSWuHJ0LrNNUA-6" value="Seleciona KIT" style="whiteSpace=wrap;html=1;" vertex="1" parent="d9bEw3XCSWuHJ0LrNNUA-1">
+          <mxGeometry x="410" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d9bEw3XCSWuHJ0LrNNUA-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="d9bEw3XCSWuHJ0LrNNUA-1" source="d9bEw3XCSWuHJ0LrNNUA-8" target="d9bEw3XCSWuHJ0LrNNUA-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="240" />
+              <mxPoint x="170" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d9bEw3XCSWuHJ0LrNNUA-8" value="Insere os CEP das entregas" style="whiteSpace=wrap;html=1;" vertex="1" parent="d9bEw3XCSWuHJ0LrNNUA-1">
+          <mxGeometry x="610" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d9bEw3XCSWuHJ0LrNNUA-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="d9bEw3XCSWuHJ0LrNNUA-1" source="d9bEw3XCSWuHJ0LrNNUA-11" target="d9bEw3XCSWuHJ0LrNNUA-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d9bEw3XCSWuHJ0LrNNUA-11" value="Gera Orçamento" style="whiteSpace=wrap;html=1;" vertex="1" parent="d9bEw3XCSWuHJ0LrNNUA-1">
+          <mxGeometry x="110" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d9bEw3XCSWuHJ0LrNNUA-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;" edge="1" parent="d9bEw3XCSWuHJ0LrNNUA-1" source="d9bEw3XCSWuHJ0LrNNUA-13" target="d9bEw3XCSWuHJ0LrNNUA-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d9bEw3XCSWuHJ0LrNNUA-13" value="Gera planilha Template" style="whiteSpace=wrap;html=1;" vertex="1" parent="d9bEw3XCSWuHJ0LrNNUA-1">
+          <mxGeometry x="310" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d9bEw3XCSWuHJ0LrNNUA-17" value="&lt;font color=&quot;#ffffff&quot;&gt;FIM&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="d9bEw3XCSWuHJ0LrNNUA-1">
+          <mxGeometry x="510" y="310" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d9bEw3XCSWuHJ0LrNNUA-19" value="&lt;font color=&quot;#000000&quot;&gt;* Alterar a consulta do frete para pegar a media do valor do frete. &lt;br&gt;&lt;br&gt;Frete Médiio + Frete Alto / 2&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="d9bEw3XCSWuHJ0LrNNUA-1">
+          <mxGeometry x="60" y="370" width="220" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
